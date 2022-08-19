@@ -12,9 +12,8 @@ public class _08 {
 		
 		Scanner sc = new Scanner(System.in);
 		String name = sc.next();
-		String str1 = 
 		
-		System.out.println(name+);
+		System.out.println(name+"??!");
 	}
 
 }
