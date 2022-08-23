@@ -22,4 +22,6 @@
 
  -sub1. 배열문(Array)실습하기
  -sub2. 다차원 배열문(MultiArray) 실습하기
-
+ -sub3. 메서드(Method) 실습하기
+ -sub4. 메서드 타입(Method Type) 실습하기
+ -sub5. 메서드 오버로딩(Method Overloading) 실습하기
