@@ -22,7 +22,6 @@ public class MethodTypeTest {
 		
 		type4();
 		
-		
 	}// main end
 	
 	// type1 : 매개변수 O, 리턴값 O
