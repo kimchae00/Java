@@ -13,18 +13,18 @@ public class _05 {
 		Scanner sc = new Scanner(System.in);
 		int h = sc.nextInt();
 		int m = sc.nextInt();
+		sc.close();
 		
 		if(m < 45) {
+			h--;
+			m = m+15;
 			if(h < 0) {
-			m = 15+m;
-				h =23;
-			}else {
-				h -=1;
-				m+=m+15;
-		}
-		}else {
-			m = m-45;
-		}
-		System.out.print(h+" "+m);
-	}
+				h = 23;
+			}
+			System.out.println(h+ " "+m);
+			
+	    }else {
+	    	System.out.println(h+" "+(m-45));
+	    }
+}
 }
