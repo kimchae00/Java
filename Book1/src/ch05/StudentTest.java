@@ -1,6 +1,6 @@
 package ch05;
 
-public class P163 {
+public class StudentTest {
 	public static void main(String[] args) {
 		
 		Student studentLee = new Student();

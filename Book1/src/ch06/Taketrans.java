@@ -1,6 +1,6 @@
 package ch06;
 
-public class P178 {
+public class Taketrans {
 	public static void main(String[] args) {
 		
 		Student studentJames = new Student("James", 5000);		
