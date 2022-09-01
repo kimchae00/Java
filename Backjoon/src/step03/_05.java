@@ -1,6 +1,7 @@
 package step03;
 
 import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 /*
  * 날짜 : 2022/08/31
@@ -10,7 +11,7 @@ import java.io.BufferedReader;
 public class _05 {
 	public static void main(String[] args) {
 		
-		BufferedReader bc = new BufferedReader(null)
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in);)
 		
 		
 		
