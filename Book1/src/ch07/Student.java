@@ -15,7 +15,7 @@ public class Student {
 	
 	public void addSubject(String name, int score) {
 		Subject subject = new Subject();
-		subject.setname(name);
+		subject.setName(name);
 		subject.setScorePoint(score);
 		subjectList.add(subject);
 	}

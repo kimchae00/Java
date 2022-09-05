@@ -1,6 +1,6 @@
 package ch07;
 
-public class P209 {
+public class BookArray2 {
 	public static void main(String[] args) {
 		Book[] library = new Book[5];
 		library[0] = new Book("태백산맥", "조정래");
