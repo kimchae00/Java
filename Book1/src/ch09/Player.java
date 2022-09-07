@@ -5,7 +5,7 @@ public class Player {
 	
 	public Player() {
 		level = new BeginnerLevel();
-		level.showLevelMesssage();
+		level.showLevelMessage();
 	}
 	
 	public PlayerLevel getLevel() {
