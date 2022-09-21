@@ -19,7 +19,8 @@ public class ReduceTest {
 		{if(s1.getBytes().length >= s2.getBytes().length) return s1;
 		else return s2;}));
 		
-		String str = Arrays.stream(greetings).reduce(new CompareString().get());
+		String str = Arrays.stream(greetings).reduce(new CompareString()).get();
+		System.out.println(str);
 	}
 
 }
