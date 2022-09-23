@@ -23,7 +23,7 @@ public class Test08 {
 		
 		for(;;) {
 			int num = (int) Math.ceil(Math.random()) * 45;
-					
+			
 			lottoSet.add(num);
 			
 			if(lottoSet.size() == 6) {
@@ -36,4 +36,5 @@ public class Test08 {
 		
 		return treeSet;
 	}
+
 }

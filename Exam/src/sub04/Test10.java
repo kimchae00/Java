@@ -5,8 +5,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/*
+ * 날짜 : 2022/09/16
+ * 이름 : 김채영
+ * 내용 : 컬렉션 연습문제
+ */
 public class Test10 {
-public static void main(String[] args) {
+	public static void main(String[] args) {
 		
 		List<Apple> list1 = new ArrayList<>();
 		list1.add(new Apple("파주", 3000));
@@ -39,5 +44,4 @@ public static void main(String[] args) {
 		// 밀양 사과 출력
 		map.get("gyungnam").get(0).show();
 	}
-
 }
