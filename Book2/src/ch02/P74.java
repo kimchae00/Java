@@ -16,7 +16,14 @@ public class P74 {
 		System.out.println();
 		
 		// 캐스팅 방법 2: L, F
+		long value5 = 10L;
+		long value6 = 10l;
+		float value7 = 5.8F;
+		float value8 = 5.8f;
 		
+		System.out.println(value5);
+		System.out.println(value6);
+		System.out.println(value7);
+		System.out.println(value8);
 	}
-
 }
