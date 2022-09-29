@@ -12,10 +12,20 @@ public class _13 {
 		
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
+		sc.close();
 		
-		for(a*0.1 > ) {
+		int b = 0;
+		int c = a;
+		
+		while(true) {
+			a = ((a % 10) * 10) + (((a / 10) + (a % 10)) % 10);
+			b++;
 			
+			if(c == a) {
+				break;
+			}
 		}
+		System.out.println(b);
 	}
 
 }
