@@ -1,28 +1,34 @@
 package step04;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /*
- * 날짜 : 2022/09/29
+ * 날짜 : 2022/10/31
  * 이름 : 김채영
- * 내용 : 첫째 줄에 주어진 정수 N개의 최솟값과 최댓값을 공백으로 구분해 출력
+ * 내용 : 첫째 줄에 입력으로 주어진 N개의 정수 중에 v가 몇 개인지 출력
  */
 public class _01 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
 		int n = sc.nextInt();
-		int[] arr = new int[n];
+		int[] array = new int[n];
+		int a = 0;
 		
 		for(int i=0; i<n; i++) {
-			arr[i] = sc.nextInt();
+			array[i] = sc.nextInt();
 		}
 		
-		sc.close();
-		Arrays.sort(arr);
-		System.out.print(arr[0] + " " + arr[n-1]);
+		int v = sc.nextInt();
+		
+		for(int i=0; i<array.length; i++) {
+			if(v == array[i]) {
+				a++;
+			}
+		}
+		
+		System.out.println(a);
+		
 	}
 
 }

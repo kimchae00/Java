@@ -1,5 +1,7 @@
 package ch07;
 
+import java.util.ArrayList;
+
 import javax.security.auth.Subject;
 
 public class Student {
@@ -15,17 +17,17 @@ public class Student {
 	
 	public void addSubject(String name, int score) {
 		Subject subject = new Subject();
-		subject.setName(name);
-		subject.setScorePoint(score);
+		//subject.setName(name);
+		//subject.setScorePoint(score);
 		subjectList.add(subject);
 	}
 	
 	public void showStudentInfo() {
 		int total = 0;
 		for(Subject s : subjectList) {
-			total += s.getScorePoint();
-			System.out.println("학생 " + studentName + "의 " + s.getname()
-			+ " 과목 성적은 " + s.getScorePoint() + "입니다.");
+			//total += s.getScorePoint();
+			System.out.println("학생 " + studentName + "의 "
+			+ " 과목 성적은 " + "입니다.");
 		}
 		System.out.println("학생 " + studentName + "의 총점은 " + total
 				+ " 입니다.");
